@@ -1,0 +1,68 @@
+set_property PACKAGE_PIN U7 [get_ports {rgmii_a_rd[3]}]
+set_property PACKAGE_PIN W6 [get_ports {rgmii_a_rd[2]}]
+set_property PACKAGE_PIN V6 [get_ports {rgmii_a_rd[1]}]
+set_property PACKAGE_PIN U5 [get_ports {rgmii_a_rd[0]}]
+
+set_property PACKAGE_PIN Y9 [get_ports {rgmii_b_rd[0]}]
+set_property PACKAGE_PIN Y8 [get_ports {rgmii_b_rd[1]}]
+set_property PACKAGE_PIN V8 [get_ports {rgmii_b_rd[2]}]
+set_property PACKAGE_PIN W8 [get_ports {rgmii_b_rd[3]}]
+
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_rd[1]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_rd[3]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_rd[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_rd[2]}]
+
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_rd[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_rd[1]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_rd[2]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_rd[3]}]
+
+set_property PACKAGE_PIN U10 [get_ports {rgmii_a_td[0]}]
+set_property PACKAGE_PIN V11 [get_ports {rgmii_a_td[1]}]
+set_property PACKAGE_PIN V10 [get_ports {rgmii_a_td[2]}]
+set_property PACKAGE_PIN U9 [get_ports {rgmii_a_td[3]}]
+
+set_property PACKAGE_PIN Y13 [get_ports {rgmii_b_td[0]}]
+set_property PACKAGE_PIN W11 [get_ports {rgmii_b_td[1]}]
+set_property PACKAGE_PIN Y11 [get_ports {rgmii_b_td[2]}]
+set_property PACKAGE_PIN W10 [get_ports {rgmii_b_td[3]}]
+
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_td[3]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_td[2]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_td[1]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_a_td[0]}]
+
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_td[3]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_td[2]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_td[1]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {rgmii_b_td[0]}]
+
+set_property PACKAGE_PIN M18 [get_ports mdio_a_mdc]
+set_property IOSTANDARD LVCMOS18 [get_ports mdio_a_mdc]
+
+set_property PACKAGE_PIN V5 [get_ports mdio_b_mdc]
+set_property IOSTANDARD LVCMOS18 [get_ports mdio_b_mdc]
+
+set_property PACKAGE_PIN U8 [get_ports rgmii_a_tx_ctl]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_a_tx_ctl]
+set_property PACKAGE_PIN T5 [get_ports rgmii_a_rx_ctl]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_a_rx_ctl]
+set_property PACKAGE_PIN W9 [get_ports rgmii_b_tx_ctl]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_b_tx_ctl]
+set_property PACKAGE_PIN Y6 [get_ports rgmii_b_rx_ctl]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_b_rx_ctl]
+
+set_property PACKAGE_PIN T9 [get_ports rgmii_a_rxc]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_a_rxc]
+set_property PACKAGE_PIN V7 [get_ports rgmii_a_txc]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_a_txc]
+set_property PACKAGE_PIN Y7 [get_ports rgmii_b_rxc]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_b_rxc]
+set_property PACKAGE_PIN Y12 [get_ports rgmii_b_txc]
+set_property IOSTANDARD LVCMOS18 [get_ports rgmii_b_txc]
+
+set_property PACKAGE_PIN M17 [get_ports mdio_a_mdio_io]
+set_property IOSTANDARD LVCMOS18 [get_ports mdio_a_mdio_io]
+set_property PACKAGE_PIN H17 [get_ports mdio_b_mdio_io]
+set_property IOSTANDARD LVCMOS18 [get_ports mdio_b_mdio_io]
